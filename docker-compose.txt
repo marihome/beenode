@@ -53,7 +53,7 @@ services:
       nofile:
         soft: "131072"
         hard: "131072" 
-		
+
   bee1:
     image: ethersphere/bee:latest
     restart: unless-stopped
@@ -107,7 +107,7 @@ services:
       nofile:
         soft: "131072"
         hard: "131072" 
-		
+
   bee2:
     image: ethersphere/bee:latest
     restart: unless-stopped
@@ -161,8 +161,7 @@ services:
       nofile:
         soft: "131072"
         hard: "131072" 
-		
-		
+	
   bee3:
     image: ethersphere/bee:latest
     restart: unless-stopped
@@ -216,8 +215,7 @@ services:
       nofile:
         soft: "131072"
         hard: "131072" 
-		
-		
+	
   bee4:
     image: ethersphere/bee:latest
     restart: unless-stopped
