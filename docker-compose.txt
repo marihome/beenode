@@ -42,7 +42,7 @@ services:
       - "5001:5001"
       - "5002:5002"
     volumes:
-      - /data/beedata/bee0:/home/bee/.bee
+      - /var/beedata/bee0:/home/bee/.bee
     command: start
     logging:
       driver: json-file
@@ -96,7 +96,7 @@ services:
       - "5011:5011"
       - "5012:5012"
     volumes:
-      - /data/beedata/bee1:/home/bee/.bee
+      - /var/beedata/bee1:/home/bee/.bee
     command: start
     logging:
       driver: json-file
@@ -150,7 +150,7 @@ services:
       - "5021:5021"
       - "5022:5022"
     volumes:
-      - /data/beedata/bee2:/home/bee/.bee
+      - /var/beedata/bee2:/home/bee/.bee
     command: start
     logging:
       driver: json-file
@@ -204,7 +204,7 @@ services:
       - "5031:5031"
       - "5032:5032"
     volumes:
-      - /data/beedata/bee3:/home/bee/.bee
+      - /var/beedata/bee3:/home/bee/.bee
     command: start
     logging:
       driver: json-file
@@ -258,7 +258,7 @@ services:
       - "5041:5041"
       - "5042:5042"
     volumes:
-      - /data/beedata/bee4:/home/bee/.bee
+      - /var/beedata/bee4:/home/bee/.bee
     command: start
     logging:
       driver: json-file
